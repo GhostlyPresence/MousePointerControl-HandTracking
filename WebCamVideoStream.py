@@ -24,8 +24,13 @@ class getVideoStream:
 
 	def stop(self):
 		self.stopped = True
-	def releaseCap(self):
+
+	def release(self):
+		print("\n[INFO] Realeasing Cap.....")
 		self.stream.release()
+
+	def isOpened(self):
+		return self.stream.isOpened()
 
 
 if __name__ == "__main__":
