@@ -15,4 +15,5 @@ To Run The Program
 ==================
 + The python version used here is python 3.8
 + Create a virtual enviroment with the python 3.8,
-+ And simply run `pip install -r requirements.txt`
++ And simply run `pip install -r requirements.txt` to install all the dependencies.
++ Run python main.py to launch the program.
